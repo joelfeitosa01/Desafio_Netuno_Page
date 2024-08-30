@@ -1,0 +1,403 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#botao2 {
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: medium;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto auto auto;
+    width: 459px;
+}
+
+#cadastro {
+    background-color: white;
+    border: 1px solid rgb(26, 127, 189);
+    border-radius: 12px;
+    height: 747px;
+    left: 820px;
+    position: absolute;
+    top: 275px;
+    width: 488px;
+}
+
+#contato {
+    border-left: 1px solid white;
+    font-size: 0.8em;
+    height: 121px;
+    padding-left: 30px;
+    width: 200px;
+}
+
+#contato > h4 {
+    margin: 10px 0px 15px;
+}
+
+#contato > p {
+    padding-bottom: 15px;
+}
+
+#cursos {
+    background-color: rgb(26, 127, 189);
+    color: white;
+    height: 170px;
+    margin: auto;
+    width: 411px;
+}
+
+#cursos > h5 {
+    font-size: medium;
+    padding-bottom: 16px;
+    padding-top: 26px;
+}
+
+#cursos > input, label {
+    margin: 10px;
+}
+
+#cursosf {
+    background-color: rgb(26, 127, 189);
+    width: 488px;
+}
+
+#endsection {
+    background-image: url(imagens/Group\ 96.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 505px;
+    margin: 150px -15px auto -15px;
+}
+
+#espacobranco {
+    background-color: white;
+    height: 10px;
+    position: absolute;
+    top: 1623px;
+    width: 100vw;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    height: 314px;
+    width: 100vw;
+}
+
+#fundo {
+    width: 100vw;
+    margin-top: 10px;
+}
+
+header {
+    align-items: center;
+    background-color: rgb(26, 127, 189);
+    color: #fff;
+    display: flex;
+    height: 90px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header > button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    height: 43px;
+    width: 159px;
+}
+
+header > img {
+    height: auto;
+    width: 136px;
+}
+
+header > ul {
+    display: flex;
+    gap: 24px;
+}
+
+header > ul > li {
+    display: inline;
+    font-size: 1em;
+    list-style-type: none;
+    margin: auto;
+}
+
+input[type="checkbox"] {
+    border: 1px solid white;
+    width: 10px;
+}
+
+.icon {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    color: rgb(26, 127, 189);
+    display: flex;
+    height: 51px;
+    justify-content: center;
+    margin-left: 8px;
+    padding: 13px;
+    width: 51px;
+}
+
+#group96 {
+    left: -15px;
+    position: absolute;
+    top: 50px;
+}
+
+#group98 {
+    height: 461px;
+    left: 179px;
+    position: absolute;
+    top: 1071px;
+    width: 533px;
+}
+
+#h2 {
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#imgjornada {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 50px 0px;
+}
+
+#inome, #iemail, #iestado {
+    margin: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+#jornada {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 170px;
+    justify-content: space-between;
+    margin: auto;
+    width: 992px;
+}
+
+#jornada > div {
+    align-items: center;
+    background-color: rgb(26, 127, 189);
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    height: 77px;
+    justify-content: center;
+    width: 320px;
+}
+
+#jornada > div > img {
+    height: 27px;
+    width: 27px;
+}
+
+#jornada > div > p {
+    padding: 20px;
+}
+
+#linha {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#linha > img {
+    background-color: transparent;
+    height: auto;
+    margin: auto;
+    position: fixed;
+    top: 80px;
+    width: 80vw;
+    z-index: 1;
+}
+
+#line1 {
+    height: 1181px;
+    left: -445px;
+    position: absolute;
+    top: -44px;
+    width: 1771px;
+}
+
+#logonetuno {
+    height: 38px;
+    width: 187px;
+}
+
+mark {
+    background-color: black;
+    color: rgb(26, 127, 189);
+    font-size: larger;
+}
+
+#maskgroup {
+    height: 859px;
+    left: 50px;
+    position: absolute;
+    top: 89px;
+    width: 831px;
+}
+
+#netuno > a > img {
+    margin: 10px 0px;
+}
+
+#objetivos {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    height: 228px;
+    justify-content: space-between;
+    margin: 50px auto auto auto;
+    width: 993px;
+}
+
+#objetivos > div {
+    background-color: #fff;
+    border-radius: 12px;
+    color: black;
+    font-size: large;
+    height: 228px;
+    text-align: center;
+    width: 327px;
+}
+
+#objetivos > div > h3 {
+    margin: 30px;
+}
+
+#objetivos > div > p {
+    margin: auto 20px;
+}
+
+#oproblema {
+    color: white;
+    height: 322px;
+    left: 807px;
+    position: absolute;
+    top: 1900px;
+    width: 408px;
+}
+
+#oprojeto {
+    color: white;
+    height: 300px;
+    left: 763px;
+    position: absolute;
+    top: 1250px;
+    width: 404px;
+}
+
+#pg01 {
+    background-color: rgb(26, 127, 189);
+    width: 100vw;
+    height: 1633px;
+}
+
+#pilares {
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    left: 223.5px;
+    margin: auto;
+    position: absolute;
+    top: 2270px;
+}
+
+#pilares > div {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.267);
+    height: 228px;
+    margin: 3px;
+    padding: 20px 10px;
+    text-align: center;
+    width: 327px;
+}
+
+#pilares > div > h3 {
+    padding-bottom: 15px;
+}
+
+#processo {
+    display: flex;
+    height: 121px;
+    justify-content: space-between;
+    width: 584px;
+}
+
+#processo > button {
+    background-color: #fff;
+    border-radius: 6px;
+    color: black;
+    height: 43px;
+    width: 159px;
+}
+
+#processo > ul {
+    font-size: 0.8em;
+    height: 115px;
+    width: 90px;
+}
+
+#processo > ul > li {
+    list-style-type: none;
+    padding: 7px;
+}
+
+#rodape {
+    color: #fff;
+    display: flex;
+    height: 121px;
+    justify-content: space-between;
+    margin: 106px auto auto auto;
+    width: 909px;
+}
+
+#seta {
+    height: 24px;
+    margin: 5px;
+    width: 24px;
+}
+
+#vector1 {
+    display: flex;
+    height: 30px;
+    margin: 20px auto auto auto;
+    width: 206px;
+}
+
+#vector3 {
+    left: 1300px;
+    position: absolute;
+    top: 469px;
+}
+
+.linha {
+    margin-top: 10px;
+}
