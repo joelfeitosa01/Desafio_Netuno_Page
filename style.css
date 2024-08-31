@@ -13,7 +13,6 @@ body {
 #botao2 {
     background-color: black;
     border-radius: 10px;
-    color: #fff;
     display: flex;
     font-size: medium;
     height: 70px;
@@ -23,15 +22,25 @@ body {
     width: 459px;
 }
 
+#botao2 > p {
+    color: white;
+}
+
 #cadastro {
     background-color: white;
-    border: 1px solid rgb(26, 127, 189);
+    border: 1px solid rgb(1, 119, 192);
     border-radius: 12px;
     height: 747px;
     left: 820px;
     position: absolute;
     top: 275px;
     width: 488px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#cadastro > h5 {
+    margin: 20px auto auto 30px;
+    color: rgb(26, 127, 189);
 }
 
 #contato {
@@ -48,6 +57,7 @@ body {
 
 #contato > p {
     padding-bottom: 15px;
+    color: white;
 }
 
 #cursos {
@@ -71,6 +81,65 @@ body {
 #cursosf {
     background-color: rgb(26, 127, 189);
     width: 488px;
+    margin-top: 40px;
+}
+
+#isim , #inao {
+    margin: 20px auto 20px 30px;
+}
+
+#isim, #inao {
+    width: 15px;
+    height: 15px;
+}
+
+#lin {
+    width: 408px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: auto;
+}
+
+#campo {
+    color: rgb(26, 127, 189);
+    display: flex;
+    margin: 10px auto;
+    font-size: 0.5em;
+    width: 100px;
+}
+
+#ienviar {
+    width: 408px;
+    height: 50px;
+    background-color: rgb(26, 127, 189);
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    margin: auto;
+    font-size: 1em;
+}
+
+#ienviar:hover {
+    background-color: white;
+    color: rgb(26, 127, 189);
+}
+
+#privacidade {
+    width: 312px;
+    height: 24;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 0.7em;
+    margin: 20px auto;
+}
+
+#privacidade > a {
+    text-decoration: none;
+    
+}
+
+#privacidade a:hover {
+    text-decoration: underline;
 }
 
 #endsection {
@@ -94,6 +163,11 @@ footer {
     display: flex;
     height: 314px;
     width: 100vw;
+}
+
+#forh3 {
+    margin: 20px auto auto 30px;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 #fundo {
@@ -168,6 +242,7 @@ input[type="checkbox"] {
     position: absolute;
     top: 1071px;
     width: 533px;
+    z-index: 1;
 }
 
 #h2 {
@@ -208,6 +283,7 @@ input[type="checkbox"] {
     height: 77px;
     justify-content: center;
     width: 320px;
+    box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.2);
 }
 
 #jornada > div > img {
@@ -249,9 +325,7 @@ input[type="checkbox"] {
     width: 187px;
 }
 
-mark {
-    background-color: black;
-    color: rgb(26, 127, 189);
+b {
     font-size: larger;
 }
 
@@ -265,6 +339,39 @@ mark {
 
 #netuno > a > img {
     margin: 10px 0px;
+}
+
+#netuno > p {
+    color: white;
+    font-size: 0.6em;
+}
+
+.input {
+    display: flex;
+    width: 408px;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.input > img {
+    display: flex;
+    margin: auto 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.input > input {
+    border: none;
+    margin-bottom: 0px;
+}
+
+#inome, #iemail, #iestado {
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    width: 400px;
 }
 
 #objetivos {
@@ -285,6 +392,7 @@ mark {
     height: 228px;
     text-align: center;
     width: 327px;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.189);
 }
 
 #objetivos > div > h3 {
@@ -304,6 +412,22 @@ mark {
     width: 408px;
 }
 
+#oproblema > h3, p {
+    color: black;
+}
+
+#oproblema > h2 {
+    background: linear-gradient(to left, white, rgb(26, 127, 189));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+#oproblema > h3 {
+    font-size: medium;
+}
+
 #oprojeto {
     color: white;
     height: 300px;
@@ -311,6 +435,10 @@ mark {
     position: absolute;
     top: 1250px;
     width: 404px;
+}
+
+#oprojeto > p {
+    color: white;
 }
 
 #pg01 {
@@ -401,3 +529,41 @@ mark {
 .linha {
     margin-top: 10px;
 }
+
+.linha > input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    padding: 3px;
+  }
+
+/* Efeitos hover para os botões */
+
+/* Hover para o botão no header */
+header > button:hover {
+    background-color: rgb(26, 127, 189);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover para o botão principal de cadastro */
+#botao2:hover {
+    background-color: rgb(26, 127, 189);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#botao2:hover > p, b {
+    color: #fff;
+}
+
+/* Hover para o botão no rodapé */
+#processo > button:hover {
+    background-color: rgb(26, 127, 189);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaquery.css" media="screen and (max-width: 320px)">
     
     <title>Netuno</title>
 </head>
@@ -26,7 +25,6 @@
     </div>
 
     <main>
-        <!--<img src="imagens/Rectangle 1.png" alt="fundo azul" id="fundo">-->
 
         <img src="imagens/Mask group.png" alt="Casal de Jovens" id="maskgroup">
 
@@ -37,15 +35,24 @@
         <div id="pg01">
             <img src="imagens/Group 98.png" alt="imagem com códigos" id="group98">
             <div id="cadastro">
-                <h3>Formulário de Cadastro</h3>
+                <h3 id="forh3">Formulário de Cadastro</h3>
                 <h5>preencha seus dados</h5>
-                <input type="text" value="Nome" id="inome" placeholder="Nome Completo*">
-                <input type="email" name="email" id="iemail" placeholder="E-mail*">
-                <input type="datetime-local" value="estado" id="iestado" placeholder="Estado*">
+                <div class="input">
+                    <img src="imagens/User-logo.png" alt="">
+                    <input type="text" id="inome" placeholder="Nome Completo*">
+                </div>
+                <div class="input">
+                    <img src="imagens/Mail-logo.png" alt="logo email">
+                    <input type="email" id="iemail" placeholder="E-mail*">
+                </div>
+                <div class="input">
+                    <img src="imagens/Vector-logo.png" alt="logo local">
+                    <input type="text"  id="iestado" placeholder="Estado*">
+                </div>
                 <div id="cursosf">
                     <div id="cursos">
                         <h5>Conhecimentos de Programação*</h5>
-                        <div c="linha">
+                        <div class="linha">
                             <input type="checkbox" name="html" id="ihtml">
                             <label for="ihtml">HTML</label>
                             <input type="checkbox" name="css" id="icss">
@@ -55,7 +62,7 @@
                             <input type="checkbox" name="php" id="iphp">
                             <label for="iphp">PHP</label>
                         </div>
-                        <div c="linha">
+                        <div class="linha">
                             <input type="checkbox" name=".net" id="i.net">
                             <label for="i.net">.NET</label>
                             <input type="checkbox" name="vue.js" id="ivue.js">
@@ -65,7 +72,7 @@
                             <input type="checkbox" name="reactnative" id="ireactnative">
                             <label for="ireactnative">React Native</label>
                         </div>
-                        <div c="linha">
+                        <div class="linha">
                             <input type="checkbox" name="node" id="inode">
                             <label for="inode">Node</label>
                             <input type="checkbox" name="python" id="ipython">
@@ -78,6 +85,20 @@
             
                     </div>
                 </div>
+                <h5>Já trabalhou com desenvolvimento?</h5>
+                <input type="checkbox" name="sim" id="isim">
+                <label for="isim">Sim</label>
+
+                <input type="checkbox" name="nao" id="inao">
+                <label for="inao">Não</label>
+
+                <div id="lin"></div>
+
+                <p id="campo">(*) Campos obrigatórios</p>
+
+                <input type="submit" name="Enviar" id="ienviar">
+
+                <p id="privacidade">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <a href="#">politica de privacidade</a></p>
             </div>
             <div id="oprojeto">
                 <h2>O Projeto</h2><br>
@@ -90,7 +111,7 @@
             <h2>O Problema</h2><br>
             <h3>Falta de profissionais de TI no Mercado Brasileiro: um problema que demanda atenção urgente.</h3><br>
             <p>Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI.</p><br>
-            <p>Um dos principais fatores dessa falta de profissionais é o êxodo de prossionais para o exterior.</p>
+            <h3>Um dos principais fatores dessa falta de profissionais é o êxodo de prossionais para o exterior.</h3>
         </div>
         <img src="imagens/Union.png" alt="fundo azul" id="fundo">
         <div id="pilares">
@@ -143,7 +164,7 @@
             </div>
         </div>
         <button id="botao2">
-            <p>Quero me cadastrar para o <mark>Processo Seletivo </mark></p>
+            <p>Quero me cadastrar para o Processo Seletivo </mark></p>
             <img src="imagens/carbon_choose-item.png" alt="setinha para a direita" id="seta">
         </button>
         <img src="imagens/Vector-1.png" alt="Rabisco azul" id="vector1">
