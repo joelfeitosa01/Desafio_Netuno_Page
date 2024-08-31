@@ -24,4 +24,4 @@ Desafios Enfrentados
 
 Layout Responsivo: Criar um layout que funcione bem em diferentes tamanhos de tela, especialmente em dispositivos móveis, foi um desafio significativo.
 
-Link para a visualização do desafio <a href="index.html">Aqui</a>
+Link para a visualização do desafio <a href="https://joelfeitosa01.github.io/Desafio_Netuno_Page/">Aqui</a>
