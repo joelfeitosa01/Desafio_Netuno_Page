@@ -8,8 +8,8 @@ Para rodar este projeto em um ambiente local, siga os passos abaixo:
 
 1. Clone o Repositório.
 
-    bash
-    git clone https://github.com/joelfeitosa01/Desafio_Netuno_Page.git
+    `bash`
+    `git clone https://github.com/joelfeitosa01/Desafio_Netuno_Page.git`
 
 2. Navegue até o Diretório do Projeto.
 3. Abra o Arquivo HTML:Localize o arquivo `index.html` no diretório do projeto e abra-o em seu navegador web preferido. Você pode simplesmente dar um duplo clique no arquivo ou arrastá-lo para a janela do navegador.
